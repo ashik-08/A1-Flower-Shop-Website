@@ -159,3 +159,28 @@
   padding: 22px 513px 23px 22px;
   margin-right: 16px;
 }
+
+/* footer section styles */
+
+.footer-details {
+  background: #111010;
+  text-align: center;
+  padding: 128px 0px;
+}
+.footer-heading {
+  color: #e55473;
+  font-size: 48px;
+  font-weight: 800;
+}
+.footer-para {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 24px 0px 32px;
+}
+.copyright {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+}
