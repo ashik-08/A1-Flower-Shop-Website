@@ -132,3 +132,30 @@
   display: inline-flex;
   gap: 24px;
 }
+
+/* subscribe section styles */
+
+.subscribe {
+  background-image: url("images/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 128px 0px;
+}
+.subscribe-section-details {
+  text-align: center;
+  padding: 122px 0px 48px;
+}
+.email-input {
+  text-align: center;
+  padding-bottom: 121px;
+}
+.email-input input[type="email"] {
+  border-radius: 8px;
+  border: 0;
+  background-color: #fff;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  padding: 22px 513px 23px 22px;
+  margin-right: 16px;
+}
