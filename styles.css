@@ -119,3 +119,16 @@
 .btn-signup {
   margin-top: 32px;
 }
+
+/* instagram section styles */
+
+.instagram {
+  text-align: center;
+}
+.instagram-section-details {
+  margin: 128px 0px 48px;
+}
+.insta-images {
+  display: inline-flex;
+  gap: 24px;
+}
