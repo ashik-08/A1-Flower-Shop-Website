@@ -63,7 +63,7 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
-  margin-top: 32px;
+  margin-top: 24px;
 }
 .featured-image {
   display: flex;
@@ -98,5 +98,24 @@
   font-weight: 700;
   line-height: 35px;
   text-decoration: underline;
+  margin-top: 32px;
+}
+
+/* hot deal section styles */
+
+.hot-deal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 186px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  margin-top: 128px;
+}
+.hot-deal-details {
+  text-align: center;
+  margin: 230px 0px 162px;
+}
+.btn-signup {
   margin-top: 32px;
 }
