@@ -101,6 +101,38 @@
   margin-top: 32px;
 }
 
+/* services section styles */
+
+.services {
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  margin: 128px 240px 0px;
+  text-align: center;
+}
+.services-icons {
+  display: inline-flex;
+  gap: 400px;
+  padding-top: 86px;
+}
+.services-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0px 87px;
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+}
+.services-details-para1 {
+  margin-left: 40px;
+}
+.services-details-para2 {
+  margin-left: -100px;
+}
+.services-details-para3 {
+  margin-right: 125px;
+}
+
 /* hot deal section styles */
 
 .hot-deal {
