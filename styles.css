@@ -133,6 +133,42 @@
   margin-right: 125px;
 }
 
+/* surprize section styles */
+
+.surprize {
+  text-align: center;
+}
+.surprize-images {
+  display: flex;
+  gap: 24px;
+  height: 396px;
+  width: 342px;
+  margin: 0px 250px;
+}
+.surprize-images-names {
+  display: flex;
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 32px 0px;
+  line-height: 35px;
+}
+.surprize-images-names-1 {
+  margin-left: 310px;
+}
+.surprize-images-names-2 {
+  margin-left: 160px;
+}
+.surprize-images-names-3 {
+  margin-left: 160px;
+}
+.surprize-images-names-4 {
+  margin-left: 150px;
+}
+.surprize-images-names-5 {
+  margin-left: 160px;
+}
+
 /* hot deal section styles */
 
 .hot-deal {
