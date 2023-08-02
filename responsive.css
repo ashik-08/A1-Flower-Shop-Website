@@ -1,0 +1,271 @@
+/* Responsive styles */
+
+/* Small devices */
+
+@media screen and (max-width: 640px) {
+  /* header related styles */
+
+  .banner {
+    width: 100%;
+    flex-direction: column;
+    padding-top: 50px;
+    text-align: center;
+  }
+  .banner-pic {
+    width: 100%;
+    margin-top: 100px;
+  }
+
+  /* main styles */
+
+  /* feature section styles */
+
+  .feature {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .featured-image {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .feature-1 {
+    padding: 110px 75px 0px;
+    width: 50%;
+  }
+  .feature-2 {
+    padding: 117px 75px 51px;
+    width: 50%;
+  }
+  .feature-3 {
+    padding: 67px 75px 0px;
+    width: 50%;
+  }
+
+  /* services section styles */
+
+  .services-container {
+    width: 80%;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  /* surprize section styles */
+
+  .surprize {
+    width: 80%;
+  }
+  .surprize-images {
+    flex-direction: column;
+  }
+
+  /* hot deal section styles */
+
+  .hot-deal {
+    flex-direction: column;
+    gap: 100px;
+  }
+  .hot-deal-details {
+    margin: 100px 50px 0px;
+  }
+  .hot-deal-pic {
+    margin-bottom: 50px;
+  }
+
+  /* instagram section styles */
+
+  .instagram {
+    width: 80%;
+  }
+  .instagram-images {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* subscribe section styles */
+
+  .subscribe {
+    width: 80%;
+    margin: 100px auto;
+  }
+  .email-input input[type="email"] {
+    padding: 30px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+  }
+}
+
+/* Medium devices */
+
+@media screen and (min-width: 640px) and (max-width: 1023px) {
+  /* header related styles */
+
+  .banner {
+    width: 100%;
+    flex-direction: column;
+    padding-top: 50px;
+    text-align: center;
+  }
+  .banner-pic {
+    width: 100%;
+    margin-top: 100px;
+  }
+
+  /* main styles */
+
+  /* feature section styles */
+
+  .feature {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .featured-image {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .feature-1 {
+    padding: 110px 75px 0px;
+    width: 50%;
+  }
+  .feature-2 {
+    padding: 117px 75px 51px;
+    width: 50%;
+  }
+  .feature-3 {
+    padding: 67px 75px 0px;
+    width: 50%;
+  }
+
+  /* services section styles */
+
+  .services-container {
+    width: 80%;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  /* surprize section styles */
+
+  .surprize-images {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  /* hot deal section styles */
+
+  .hot-deal {
+    flex-direction: column;
+    gap: 100px;
+  }
+  .hot-deal-details {
+    margin: 100px 50px 0px;
+  }
+  .hot-deal-pic {
+    margin-bottom: 50px;
+  }
+
+  /* instagram section styles */
+
+  .instagram {
+    width: 80%;
+  }
+  .instagram-images {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* subscribe section styles */
+
+  .subscribe {
+    width: 80%;
+    margin: 100px auto;
+  }
+  .email-input input[type="email"] {
+    padding: 30px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+  }
+}
+
+/* Large devices */
+
+@media screen and (min-width: 1024px) and (max-width: 1536px) {
+  /* header related styles */
+
+  .banner {
+    width: 100%;
+  }
+  .banner-content {
+    padding: 30px 0px;
+    padding-left: 30px;
+  }
+  .banner-pic {
+    width: 100%;
+    margin-top: 160px;
+  }
+
+  /* main styles */
+
+  /* feature section styles */
+
+  .feature {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .featured-image {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 100px;
+  }
+  .feature-1 {
+    padding: 110px 75px 0px;
+    width: 60%;
+  }
+  .feature-2 {
+    padding: 117px 75px 115px;
+    width: 50%;
+  }
+  .feature-3 {
+    padding: 67px 75px 0px;
+    width: 60%;
+  }
+
+  /* surprize section styles */
+
+  .surprize-images {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  /* hot deal section styles */
+
+  .hot-deal {
+    flex-direction: column;
+    gap: 100px;
+  }
+  .hot-deal-details {
+    margin: 100px 50px 0px;
+  }
+  .hot-deal-pic {
+    margin-bottom: 50px;
+  }
+
+  /* instagram section styles */
+
+  .instagram-images {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  /* subscribe section styles */
+
+  .email-input input[type="email"] {
+    padding: 30px 100px;
+    margin-right: 20px;
+  }
+}
